@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+body.indexpage {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9eb0eb;
+}
+
+.home {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.headline {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: #e6dfb8;
+}
+
+#option0 {
+    border-radius: 5%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 27%;
+    margin-top: 5%;
+    background-color: rgb(186, 226, 224);
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 17%;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+}
+
+#option1 {
+    border-radius: 5%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color: rgb(186, 226, 224);
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#option2 {
+    border-radius: 5%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color: rgb(186, 226, 224);
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#option3 {
+    border-radius: 5%;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color: rgb(186, 226, 224);
+    padding: .8%;
+    float: left;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+}
+
+footer {
+    background-color: rgb(10, 11, 12);
+    position: fixed;
+    width: 100%;
+    height: 3%;
+    bottom: 0px;
+}
+
+.foot {
+    text-align: center;
+    color: rgb(255, 255, 248);
+    border-radius: 20%;
+}
+
+button {
+    border: none;
+    background: #d9d9d9;
+}
+
+button:hover {
+    background-color: #777E8B;
+    transform: scale(1.1);
+    color: white;
+}
+
+.details {
+    color: #e6dfb8;
+    text-align: center;
+    text-indent: 1%;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.insert {
+    background-color: #e6dfb8;
+}
+
+.inputid {
+    align-content: center;
+}
+
+.id {
+    margin-left: 50px;
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.email {
+    margin-left: 20px;
+}
+
+.balance {
+    margin-left: 20px;
+}
+
+.insert {
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.detailsCollection {
+    margin-top: 20px;
+    display: flex;
+}
+
+table {
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: left;
+    color: #000000;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #463cdb;
+    color: rgb(8, 8, 8);
+}
+
+tr:nth-child(even) {
+    background-color: #fdfdfd;
+    color: black;
+}
+
+.usercreate {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+form {
+    display: flex;
+    background-color: grey;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+.moneytransacdiv {
+    text-align: left;
+    align-items: center;
+    color: #e6dfb8;
+    width: 200px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #588c7e;
+    font-weight: 800;
+    font-size: xx-large;
+    box-sizing: content-box;
+}
+
+.usercss {
+    padding: 10px;
+    margin: 20px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.appform {
+    display: flex;
+    display: inline-flex;
+}
+
+.tocreateuser {
+    padding: 5%;
+    margin: 10%;
+}
